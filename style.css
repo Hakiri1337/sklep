@@ -1,0 +1,149 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body{
+    font-family:'poppins';
+  margin:0;
+  color: white;
+   
+}
+body::before{
+  
+    content: '';
+   position: fixed;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   z-index: -1;
+   background: color-darkblue;
+   background-image: linear-gradient(
+       115deg,
+       rgba(58, 58, 158, 0.8),
+       rgba(136, 136, 206, 0.7)
+     ),
+     url(https://2bxnlg6khzwqa64e19b4hfan-wpengine.netdna-ssl.com/employmentpoland/files/2018/06/background-resized-1024x577.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+ }
+#container
+{
+    
+
+display: flex;
+align-items: center;
+flex-direction: column;
+
+
+
+}
+#logowanie
+
+{
+
+    border-radius: 5%;
+padding-top: 50px;
+width: 300px;
+background: linear-gradient(rgba(80, 60, 158, 2), #9198e5);;
+height: 300px;
+
+}
+#imie
+{
+    
+margin-left: 30px;
+width: 240px;
+height: 30px;
+border-radius: 0.25rem;
+}
+#haslo
+{
+ 
+    margin-left: 30px;
+width: 240px;
+height: 30px;
+margin-left: 30px;
+border-radius: 0.25rem;
+
+}
+#submit
+{
+
+
+    font-family:'poppins';
+    color:white;
+     font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.4;
+      width:300px;
+      height:40px;
+      background-color:rgba(80, 58, 158, 1);
+       border-radius: 0.25rem;
+        background-clip: padding-box;
+        border: 1px solid rgba(80, 58, 158, 1);
+}
+#reg
+{
+margin-top: 100px;
+
+}
+.header
+{
+    width: 260px;
+    background: linear-gradient(rgba(80, 60, 158, 2), #9198e5);;
+    padding: 5px 20px;
+    border-radius:10px;
+
+
+}
+#blad{
+
+    color: red;
+}
+.witaj
+{
+    display: flex;
+     
+    justify-content: center;
+
+}
+#rejestracja
+{
+    
+    margin-top: 100px;
+    border-radius: 5%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 300px;
+    background: linear-gradient(rgba(80, 60, 158, 2), #9198e5);;
+    height: 450px;
+
+}
+.g-recaptcha{
+
+border-radius: 5%;
+
+}
+#submit2
+{
+
+    font-family:'poppins';
+    color:white;
+     font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.4;
+      width:300px;
+      height:40px;
+      background-color:rgba(80, 58, 158, 1);
+       border-radius: 0.25rem;
+       
+        border: 1px solid rgba(80, 58, 158, 1);
+
+}
+::placeholder
+{
+    font-family:'poppins';
+    
+}
